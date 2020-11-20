@@ -1,0 +1,77 @@
+/*
+Jake Wright's Original Code
+URL: https://youtu.be/0afZj1G0BIE
+*/
+
+body{
+    background-color: #eee;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h1, h2, h3{
+    margin: 0;
+}
+
+#container{
+    background-color: F5C87F;
+    width: 800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#header {
+    background-color: #6D1D18;
+    color: F5C87F;
+    text-align: center;
+}
+
+#content {
+    padding: 10px;
+}
+
+#nav{
+    width: 180px;
+    float: left;
+}
+
+#nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: F5C87F;	
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: #6D1D18;
+  color: white;
+}
+
+#nav .selected{
+    font-weight: bold;
+}
+
+
+#main{
+    width: 600px;
+    float: right;
+}
+
+#footer{
+    clear: both;
+    padding: 10px;
+    background-color: #999999;
+    color: #ffffff;
+    text-align: right;
+}
