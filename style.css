@@ -3,9 +3,26 @@ Jake Wright's Original Code
 URL: https://youtu.be/0afZj1G0BIE
 */
 
-body{
-    background-color: #eee;
-    font-family: Helvetica, Arial, sans-serif;
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 10s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+	
 }
 
 a{
@@ -18,21 +35,34 @@ h1, h2, h3{
 }
 
 #container{
-    background-color: F5C87F;
+    background-color: #D2B48C;
     width: 1000px;
     margin-left:auto;
     margin-right:auto;
 }
 
 #header {
-    background-color: #6D1D18;
-    color: F5C87F;
+    background-color: #800000;
+    color: #DAA520;
     text-align: center;
 }
 
 #content {
     padding: 10px;
 }
+
+
+
+
+
+
+html, body {
+  width: 100%;
+  height:100%;
+}
+
+	
+
 
 #nav{
     width: 180px;
@@ -43,8 +73,9 @@ h1, h2, h3{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  width: 200px;
-  background-color: F5C87F;	
+  width: 150px;
+  background-color: #eae2b7;
+	
 }
 
 li a {
@@ -54,8 +85,8 @@ li a {
   text-decoration: none;
 }
 li a:hover {
-  background-color: #6D1D18;
-  color: white;
+  background-color:  #003049;
+  color: gold;
 }
 
 #nav .selected{
@@ -75,3 +106,4 @@ li a:hover {
     color: #ffffff;
     text-align: right;
 }
+
